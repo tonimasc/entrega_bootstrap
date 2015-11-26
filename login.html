@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <title>Login</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    <link href="login.css" rel="stylesheet">
+
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#"> VideoStore </a>
+            </div>
+            <div>
+                <ul class="nav navbar-nav">
+                    <li><a href="#"> Inicio </a></li>
+                    <li><a href="#"> Mi Cuenta </a></li>
+                    <li><a href="#"> Login </a></li>
+                    <li><a href="#"> Peliculas </a></li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <form class="navbar-form navbar-left" role="search">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Buscador">
+                        </div>
+                        <button type="submit" class="btn btn-default">
+                            <img class="loupe" src="Images/Lupa.png" style="width:10px; height:10px">
+                        </button>
+                    </form>
+                    <li><a href="#"> Salir </a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>    
+  </head>
+
+  <body>
+    <div class="container">
+      <form class="form-signin">
+        <h2 class="form-signin-heading" style="color: white">Videostore</h2>
+        <input type="usuario" id="inputuser" class="form-control" placeholder="Usuario" required autofocus>
+        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+        <button class="btn btn-lg btn-primary btn-block" type="submint">Log in</button>
+      </form>
+
+    </div>
+  </body>
+</html>
